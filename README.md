@@ -8,6 +8,12 @@ Each project lives in its own folder under `papers/`, with markdown sources at t
 
 ## papers
 
+### curiosity-driven agentic system
+
+**[A curiosity-driven agentic system for knowledge gap identification and targeted exploration](papers/curiosity-driven-agentic-system-for-knowledge-gap-and-targeted-exploration/A_Curiosity_Driven_Agentic_System_for_Knowledge_Gap_Identification_and_Targeted_Exploration.pdf)** · whitepaper · February 2026
+
+LLMs answer fluently whether or not they actually know, and don't reliably mark the boundary. This whitepaper proposes an agentic system that treats "not knowing" as a first-class state: a structured knowledge model partitions facts into known/unknown/uncertain, the LLM does task parsing and gap detection against it, a planning module converts gaps into targeted actions — retrieval, simulation, experimentation, inspection — and a feedback loop writes validated findings back. Covers subsystem interfaces, data flow, constraints, evaluation protocols, and case studies across domains. This is the umbrella architecture the rest of the research plugs into: the simulated-world-models work specifies one of its components.
+
 ### simulated world models
 
 A three-paper set on serving data-poor small businesses with simulation-trained world models. Read the position paper first; the two whitepapers are alternative technical routes to the same destination. All three are proposal drafts (June 2026) — nothing is trained yet, and each paper states the evaluation that would confirm or refute it.
